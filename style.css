@@ -19,6 +19,7 @@ body{
     margin-bottom: 15px; /* Seperate announcements from other content elements*/
     color: white; /* Text color white to make it viewable*/
     font-size: 25px;
+    text-align: center;
 }
 
 #left-banner{
@@ -52,13 +53,32 @@ body{
 
 #stories-banner{
     background-color: yellow;
-    height: 50px;
+    height: auto;
     margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
 }
 
 #stories{
     background-color: red;
     height: 600px;
+}
+
+.story{
+    background-color: tomato;
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+.story img{
+    float: left;
+    height: 60%;
+    padding: 5px;
+}
+
+.story h1{
+    margin: 0;
+    font-size: 20px;
 }
 
 #ad1{
