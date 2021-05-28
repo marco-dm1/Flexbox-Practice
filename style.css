@@ -1,0 +1,50 @@
+body{
+    margin: 0; /* Removes white browser border from body elements */
+}
+#nav{
+    background-color: limegreen;
+    width: 100%; /* Have the bar wrap the entire screen*/
+    height: auto; /* Have all content fit inside of the bar*/
+}
+
+#content{
+    background-color: grey;
+    width: 95%; /* Take up only 95% of the screen's width*/
+    margin: 20px 2.5%; /* Add 2.5% margins on both sides and a 20pox margin on the top and bottom*/
+}
+
+#announcement{
+    background-color: blue;
+    width: 100%; /* Wrap entire content element*/
+    margin-bottom: 15px; /* Seperate announcements from other content elements*/
+    color: white; /* Text color white to make it viewable*/
+    font-size: 25px;
+}
+
+#weather{
+    background-color: orange;
+    width: 22.5%;
+    height: 75px;
+    margin-bottom: 10px;
+}
+
+#links{
+    background-color: orangered;
+    width: 22.5%;
+}
+
+#top-stories{
+    background-color: greenyellow;
+}
+
+#stories-banner{
+    background-color: yellow;
+}
+
+#stories{
+    background-color: red;
+}
+
+#advertisments{
+    background-color: purple;
+}
