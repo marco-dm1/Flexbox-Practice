@@ -21,30 +21,53 @@ body{
     font-size: 25px;
 }
 
+#left-banner{
+    width: 22.5%;
+    float: left;
+}
+
+#right-banner{
+    background-color: purple;
+    float: right;
+    width: 22.5%;
+    height: 610px;
+}
+
 #weather{
     background-color: orange;
-    width: 22.5%;
-    height: 75px;
+    height: 100px;
     margin-bottom: 10px;
 }
 
 #links{
     background-color: orangered;
-    width: 22.5%;
+    height: 500px;
 }
 
 #top-stories{
     background-color: greenyellow;
+    width: 45%;
+    margin-left: 27.5%;
 }
 
 #stories-banner{
     background-color: yellow;
+    height: 50px;
+    margin-bottom: 10px;
 }
 
 #stories{
     background-color: red;
+    height: 600px;
 }
 
-#advertisments{
-    background-color: purple;
+#ad1{
+    background-color: olive;
+    height: 175px;
+    margin-bottom: 10px;
+}
+
+#ad2{
+    background-color: peru;
+    height: 425px;
 }
