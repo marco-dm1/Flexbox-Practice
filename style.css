@@ -2,9 +2,32 @@ body{
     margin: 0; /* Removes white browser border from body elements */
 }
 #nav{
-    background-color: limegreen;
+    display: flex;
+    background-color: rgb(240, 240, 240);
+    justify-content: space-between; /*Seperate the hamburger menu and the logo to the two sides of the navigation bar*/
     width: 100%; /* Have the bar wrap the entire screen*/
-    height: auto; /* Have all content fit inside of the bar*/
+    /*height: auto; /* Have all content fit inside of the bar*/
+    height: 70px;
+}
+#nav a{
+    margin: 24px;
+}
+/*
+#nav menu{
+    align-items: center;
+}
+*/
+
+#nav img{
+    height: 200%;
+}
+
+#nav span{
+    width: 30px;
+    height: 3px;
+    background-color: rgb(150, 150, 150);
+    margin-bottom: 5px; /* Make seperation between hamburger layers*/
+    display: block; /* Makes spans visible*/
 }
 
 #content{
