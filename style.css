@@ -18,8 +18,10 @@ body{
 }
 */
 
-#nav img{
+#nav-logo img{
     height: 200%;
+    position: relative;
+    top: -50%;
 }
 
 #nav span{
